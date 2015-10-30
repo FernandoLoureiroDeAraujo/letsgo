@@ -1,0 +1,133 @@
+
+#cbSearch{
+    -fx-background-color:  #009688;
+    -fx-prompt-text-fill: lightgray;
+    -fx-border-radius: 0, 0;
+    -fx-text-fill: WHITE;
+    -fx-pref-height: 48px; 
+}
+#cbSearch .label{
+    -fx-text-fill: WHITE;
+}
+
+#cbSearch:hover .label{
+    -fx-text-fill: #ad1457;
+}
+
+.root{ 
+    -fx-border-color: gray;
+    -fx-background-insets: 0, 3;
+    -fx-border-radius: 3, 2;  
+}
+
+#topPanel{
+    -fx-background-color: #4A148C; 
+    -fx-border-color: black;
+    -fx-background-insets: 0, 2;
+    -fx-border-radius: 3, 2;
+}
+
+#topBar{
+    -fx-background-color: #4A148C; 
+}
+
+#leftPanel .label{
+      -fx-font-size: 14px; 
+}
+
+#clientPanel, #employeePanel, #insertDressPane, #selectDressPane, #buyPane{
+    -fx-background-color: white; 
+    -fx-border-color: lightgray;
+    -fx-background-insets: 0, 1;
+    -fx-border-radius: 3, 2;
+}
+
+#leftPanel{
+    -fx-background-color: #7E57C2;
+}
+
+#mainPanel{
+    -fx-background-color: #E0E0E0;
+}
+
+#employeePanel{
+}
+
+#insertDressPane{
+}
+
+#selectDressPane{
+}
+
+.button {
+    -fx-font-size: 15px;
+    -fx-background-color: #009688;
+}
+.button:hover {
+    -fx-background-color: #ad1457;
+}
+
+ #topPanel #lblNameProgram,  #topPanel #tglImg, #leftPanel .label, #topBar .label {
+    -fx-text-fill: white;
+    -fx-pref-height: 40px;
+}
+#topBar .label {
+   -fx-font-size: 20px; 
+}
+
+#topPanel #lblNameProgram{
+    -fx-font-weight: bold;
+}
+
+
+.text-field{
+    -fx-min-width: 50px;
+    -fx-pref-width: 400px;    
+    -fx-pref-height: 48px;     
+}
+
+#tfdSearch{
+    -fx-min-width: 50px;
+    -fx-pref-width: 500px;    
+    -fx-pref-height: 48px;  
+}
+
+.toggle-button{
+    -fx-background-color: none;
+}
+.toggle-button:hover{
+    -fx-background-color: #ad1457;
+}
+#tglStore{
+    -fx-graphic: url('/br/com/image/dress48.png');
+}
+#tglSearch{
+    -fx-graphic: url('/br/com/image/search.png');
+}
+#tglShow{
+    -fx-graphic: url('/br/com/image/showBar.png');
+}
+
+#txtDress1{
+  -fx-graphic: url('/br/com/image/dress1.png');  
+}
+#txtClient{
+  -fx-graphic: url('/br/com/image/client.png');  
+}
+#txtEmployee{
+  -fx-graphic: url('/br/com/image/employee.png');  
+}
+#txtDress2{
+  -fx-graphic: url('/br/com/image/dress2.png');  
+}
+#txtClient:hover, #txtEmployee:hover, #txtDress1:hover, #txtDress2:hover{
+   -fx-background-color: #ad1457;
+}
+
+.label{
+    -fx-font-size: 14px;
+}
+
+#lblNameProgram{
+    -fx-alignment: TOP_CENTER;
+}
