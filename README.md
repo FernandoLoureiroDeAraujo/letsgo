@@ -21,3 +21,6 @@ MySQL Connector - Realizar conexão com o banco de dados.
 
 
 ##Algumas telas
+![alt text](screenshots/login.png "Login")
+![alt text](screenshots/principal.png "Principal")
+![alt text](screenshots/cadastroFuncionario.png "Cadastro de Funcionário")
